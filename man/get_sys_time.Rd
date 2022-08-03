@@ -15,3 +15,4 @@ Get System Time as Integer
 \examples{
 get_sys_time()
 }
+\concept{helpers}

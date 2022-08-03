@@ -2,3 +2,23 @@ url: http://christophertkenny.com/jot/
 template:
   bootstrap: 5
 
+reference:
+- title: "Make a note"
+  desc: "Write or erase notes in a notepad"
+- contents:
+  - has_concept("write")
+- title: "Work with notepads"
+  desc: "Create, open, and close notepads"
+- contents:
+  - has_concept("pad")
+- title: "Read notepad contents"
+  desc: "Read entire notepad or certain entires"
+- contents:
+  - has_concept("read")
+- title: "Set writeability status"
+  desc: "Lock or unlock notepads to avoid unintended updates"
+- contents:
+  - has_concept("lock")
+- title: "Helper Functions"
+- contents:
+  - has_concept("helpers")

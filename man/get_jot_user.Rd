@@ -20,3 +20,4 @@ Get Current User
 get_jot_user()
 get_jot_user(NA_character_)
 }
+\concept{helpers}

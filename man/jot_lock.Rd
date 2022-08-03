@@ -16,12 +16,16 @@ jot_unlock(pad = jot_active())
 path to pad, invisibly
 }
 \description{
-Lock or Unlock a jot Notepad
+\itemize{
+\item \code{jot_lock()} locks a notepad so that \code{jot} will not write to it.
+\item \code{jot_unlock()} unlocks a notepad so that \code{jot} can write to it.
+}
 }
 \examples{
 tf <- tempfile()
-new_pad(tf)
+jot_new_pad(tf)
 jot_activate(tf)
 jot_lock()
 jot_unlock()
 }
+\concept{lock}

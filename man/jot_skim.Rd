@@ -2,7 +2,7 @@
 % Please edit documentation in R/read.R
 \name{jot_skim}
 \alias{jot_skim}
-\title{Read in all values from a jot Notepad}
+\title{Read in all values from a jot notepad}
 \usage{
 jot_skim(pad = jot_active())
 }
@@ -10,15 +10,16 @@ jot_skim(pad = jot_active())
 \item{pad}{path to file to open}
 }
 \value{
-value specified or all values
+value specified or list of all values
 }
 \description{
-Read in all values from a jot Notepad
+Read in all values from a jot notepad
 }
 \examples{
 tf <- tempfile()
-new_pad(tf)
+jot_new_pad(tf)
 jot_activate(tf)
 jot('ex_val', 'ex')
 jot_skim()
 }
+\concept{read}

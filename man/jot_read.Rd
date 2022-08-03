@@ -3,14 +3,14 @@
 \name{jot_read}
 \alias{jot_read}
 \alias{read_jot}
-\title{Read a jot Notepad}
+\title{Read a jot notepad}
 \usage{
-jot_read(field, pad = jot_active())
+jot_read(name, pad = jot_active())
 
-read_jot(field, pad = jot_active())
+read_jot(name, pad = jot_active())
 }
 \arguments{
-\item{field}{field to read}
+\item{name}{name of noteto read}
 
 \item{pad}{path to file to open}
 }
@@ -18,13 +18,14 @@ read_jot(field, pad = jot_active())
 value specified or all values
 }
 \description{
-Read a jot Notepad
+Read a jot notepad
 }
 \examples{
 tf <- tempfile()
-new_pad(tf)
+jot_new_pad(tf)
 jot_activate(tf)
 jot(note = 'ex_note', name = 'ex_name')
 jot_read()
 jot_read('ex_name')
 }
+\concept{read}

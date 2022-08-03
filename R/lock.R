@@ -1,13 +1,18 @@
 #' Lock or Unlock a jot Notepad
 #'
+#' - `jot_lock()` locks a notepad so that `jot` will not write to it.
+#' - `jot_unlock()` unlocks a notepad so that `jot` can write to it.
+#'
 #' @param pad path to file to open
 #'
 #' @return path to pad, invisibly
 #' @export
 #'
+#' @concept lock
+#'
 #' @examples
 #' tf <- tempfile()
-#' new_pad(tf)
+#' jot_new_pad(tf)
 #' jot_activate(tf)
 #' jot_lock()
 #' jot_unlock()

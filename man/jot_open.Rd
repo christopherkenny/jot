@@ -28,14 +28,19 @@ jot_deactivate()
 path to pad, invisibly
 }
 \description{
-Open and Close jot Notepads
+\itemize{
+\item \code{jot_open()} and \code{jot_activate()} opens an existing notepad and sets it to active.
+\item \code{jot_current()} and \code{jot_active()} return the path to the current notepad.
+\item \code{jot_close()} and \code{jot_deactivate()} closes the open notepad, if there is one.
+}
 }
 \examples{
 tf <- tempfile()
-new_pad(tf)
+jot_new_pad(tf)
 jot_open(tf)
 jot_active()
 jot_current()
 jot_close()
 jot_active()
 }
+\concept{pad}

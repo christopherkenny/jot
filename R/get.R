@@ -6,6 +6,8 @@
 #' @return character
 #' @export
 #'
+#' @concept helpers
+#'
 #' @examples
 #' get_jot_user()
 #' get_jot_user(NA_character_)
@@ -25,6 +27,8 @@ get_jot_user <- function(user = '') {
 #'
 #' @return integer
 #' @export
+#'
+#' @concept helpers
 #'
 #' @examples
 #' get_sys_time()

@@ -1,13 +1,19 @@
 #' Open and Close jot Notepads
 #'
+#' - `jot_open()` and `jot_activate()` opens an existing notepad and sets it to active.
+#' - `jot_current()` and `jot_active()` return the path to the current notepad.
+#' - `jot_close()` and `jot_deactivate()` closes the open notepad, if there is one.
+#'
 #' @param pad path to file to open
 #'
 #' @return path to pad, invisibly
 #' @export
 #'
+#' @concept pad
+#'
 #' @examples
 #' tf <- tempfile()
-#' new_pad(tf)
+#' jot_new_pad(tf)
 #' jot_open(tf)
 #' jot_active()
 #' jot_current()
@@ -35,7 +41,7 @@ jot_activate <- jot_open
 #' @rdname jot_open
 #' @export
 jot_active <- function() {
-  invisible(as.character(Sys.getenv()['jot_active']))
+  as.character(Sys.getenv()['jot_active'])
 }
 
 #' @rdname jot_open

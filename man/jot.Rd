@@ -3,11 +3,12 @@
 \name{jot}
 \alias{jot}
 \alias{write_jot}
-\title{Title}
+\title{Jot Down a Note}
 \usage{
 jot(
   note,
   name,
+  overwrite = FALSE,
   user = get_jot_user(),
   time = get_sys_time(),
   pad = jot_active()
@@ -16,6 +17,7 @@ jot(
 write_jot(
   note,
   name,
+  overwrite = FALSE,
   user = get_jot_user(),
   time = get_sys_time(),
   pad = jot_active()
@@ -25,6 +27,8 @@ write_jot(
 \item{note}{data to save. required.}
 
 \item{name}{character, name of data. required.}
+
+\item{overwrite}{logical, default is FALSE. If a note of the same name exists, should it be overwritten?}
 
 \item{user}{name of user. default is \code{get_jot_user()}.}
 
@@ -36,11 +40,12 @@ write_jot(
 path to pad, invisibly
 }
 \description{
-Title
+Jot Down a Note
 }
 \examples{
 tf <- tempfile()
-new_pad(tf)
+jot_new_pad(tf)
 jot_activate(tf)
 jot(3, 'example')
 }
+\concept{write}
