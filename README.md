@@ -58,7 +58,7 @@ active notepad is represented as a path.
 
 ``` r
 jot_active()
-#> [1] "C:\\Users\\chris\\AppData\\Local\\Temp\\RtmpuORFK1\\file475814dc2be3.yaml"
+#> [1] "C:\\Users\\chris\\AppData\\Local\\Temp\\RtmpeEb5lw\\file64b4487a55b1.yaml"
 ```
 
 To write to the notepad can use `jot()`:
@@ -176,15 +176,6 @@ We can skim the note and report back everything:
 
 ``` r
 jot_skim()
-#> $title
-#> NULL
-#> 
-#> $locked
-#> NULL
-#> 
-#> $home
-#> NULL
-#> 
 #> $estimate
 #> [1] 4
 #> 

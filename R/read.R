@@ -48,7 +48,7 @@ read_jot <- jot_read
 #' jot_skim()
 jot_skim <- function(pad = jot_active()) {
   notes <- yaml::read_yaml(file = pad)
-  lapply(notes, function(x) {
+  out <- lapply(notes, function(x) {
     if ('content' %in% names(x)) {
       if (x$quoted) {
         eval(
@@ -63,6 +63,7 @@ jot_skim <- function(pad = jot_active()) {
       NULL
     }
   })
+  out[lengths(out) != 0]
 }
 
 #' List out names of values in a jot notepad
