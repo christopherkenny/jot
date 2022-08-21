@@ -10,8 +10,7 @@
 
 The goal of jot is to improve reproducability by allowing you to track
 statistics needed for an Rmd but are too big to open. Some statistics
-require summarizing large datasets or take a long time to calculate. To
-avoid
+require summarizing large datasets or take a long time to calculate.
 
 `jot` approaches this with the following organizing principles: 1. Notes
 should be lockable, so that tests don’t accidentally overwrite existing
@@ -58,7 +57,7 @@ active notepad is represented as a path.
 
 ``` r
 jot_active()
-#> [1] "C:\\Users\\chris\\AppData\\Local\\Temp\\RtmpeEb5lw\\file64b4487a55b1.yaml"
+#> [1] "C:\\Users\\chris\\AppData\\Local\\Temp\\RtmpAFuA8J\\file2cfc4cc14957.yaml"
 ```
 
 To write to the notepad can use `jot()`:

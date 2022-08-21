@@ -21,7 +21,6 @@ knitr::opts_chunk$set(
 
 The goal of jot is to improve reproducability by allowing you to track statistics needed for an Rmd but are too big to open.
 Some statistics require summarizing large datasets or take a long time to calculate.
-To avoid 
 
 `jot` approaches this with the following organizing principles:
 1. Notes should be lockable, so that tests don't accidentally overwrite existing statistics.

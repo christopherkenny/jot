@@ -1,18 +1,24 @@
 Package: jot
 Title: Jot Down Values For Later
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Christopher T.",
            family = "Kenny",
            role = c("aut", "cre"),
            email = "christopherkenny@fas.harvard.edu",
            comment = c(ORCID = "0000-0002-9386-6860"))
-Description: What the package does (one paragraph).
+Description: Reproducible work requires a record of where every statistic originated.
+    When writing reports, some data is too big to load in the same environment and some statistics take a while to compute.
+    jot offers a way to keep notes on statistics, simple functions, and small objects.
+    Notepads can be locked to avoid accidental updates.
+    Notepads keep track of who added the notes and when the notes were added.
+    A simple text representation is used to allow for clear version histories.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
 Imports: 
     cli,
     yaml
-URL: http://christophertkenny.com/jot/
+URL: http://christophertkenny.com/jot/, https://github.com/christopherkenny/jot
+BugReports: https://github.com/christopherkenny/jot/issues
