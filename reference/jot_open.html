@@ -22,7 +22,7 @@ jot_close() and jot_deactivate() closes the open notepad, if there is one.
     
     <a class="navbar-brand me-2" href="../index.html">jot</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,13 @@ jot_close() and jot_deactivate() closes the open notepad, if there is one.
       </ul><form class="form-inline my-2 my-lg-0" role="search">
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="../search.json" id="search-input" placeholder="Search for" autocomplete="off"></form>
 
-      <ul class="navbar-nav"></ul></div>
+      <ul class="navbar-nav"><li class="nav-item">
+  <a class="external-link nav-link" href="https://github.com/christopherkenny/jot/" aria-label="github">
+    <span class="fab fa fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul></div>
 
     
   </div>
@@ -44,7 +50,7 @@ jot_close() and jot_deactivate() closes the open notepad, if there is one.
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="../logo.png" class="logo" alt=""><h1>Open and Close jot Notepads</h1>
-      
+      <small class="dont-index">Source: <a href="https://github.com/christopherkenny/jot/blob/HEAD/R/active.R" class="external-link"><code>R/active.R</code></a></small>
       <div class="d-none name"><code>jot_open.Rd</code></div>
     </div>
 
@@ -89,9 +95,9 @@ jot_close() and jot_deactivate() closes the open notepad, if there is one.
 <span class="r-in"><span><span class="fu"><a href="jot_new_pad.html">jot_new_pad</a></span><span class="op">(</span><span class="va">tf</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu">jot_open</span><span class="op">(</span><span class="va">tf</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu">jot_active</span><span class="op">(</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "/tmp/RtmpAl5Tca/file2a9126090f26.yaml"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "/tmp/RtmpgVdJ9J/file2d065dea2ca9.yaml"</span>
 <span class="r-in"><span><span class="fu">jot_current</span><span class="op">(</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "/tmp/RtmpAl5Tca/file2a9126090f26.yaml"</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "/tmp/RtmpgVdJ9J/file2d065dea2ca9.yaml"</span>
 <span class="r-in"><span><span class="fu">jot_close</span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu">jot_active</span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] ""</span>
