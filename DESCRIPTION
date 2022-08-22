@@ -1,6 +1,6 @@
 Package: jot
-Title: Jot Down Values For Later
-Version: 0.0.1
+Title: Jot Down Values for Later
+Version: 0.0.2
 Authors@R: 
     person(given = "Christopher T.",
            family = "Kenny",
