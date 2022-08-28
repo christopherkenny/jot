@@ -1,6 +1,9 @@
 ## Resubmission
 
-* Change "F" in title to "f"
+* Change "F" in title to "f" for CRAN-respected title case.
+* Fix language that used package name as a noun in the description.
+* This package does not have a corresponding publication. It is designed as a 
+helper to support reproducible projects, not a separate workflow.
 
 ## Test environments
 

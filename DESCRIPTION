@@ -1,6 +1,6 @@
 Package: jot
 Title: Jot Down Values for Later
-Version: 0.0.2
+Version: 0.0.4
 Authors@R: 
     person(given = "Christopher T.",
            family = "Kenny",
@@ -9,7 +9,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-9386-6860"))
 Description: Reproducible work requires a record of where every statistic originated.
     When writing reports, some data is too big to load in the same environment and some statistics take a while to compute.
-    jot offers a way to keep notes on statistics, simple functions, and small objects.
+    This package offers a way to keep notes on statistics, simple functions, and small objects.
     Notepads can be locked to avoid accidental updates.
     Notepads keep track of who added the notes and when the notes were added.
     A simple text representation is used to allow for clear version histories.
