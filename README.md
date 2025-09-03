@@ -6,9 +6,16 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/christopherkenny/jot/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/jot/actions/workflows/R-CMD-check.yaml)
+[![jot status
+badge](https://christopherkenny.r-universe.dev/badges/jot)](https://christopherkenny.r-universe.dev/jot)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/jot)](https://CRAN.R-project.org/package=jot)
+![CRAN downloads](http://cranlogs.r-pkg.org/badges/grand-total/jot)
 <!-- badges: end -->
 
-The goal of jot is to improve reproducability by allowing you to track
+The goal of `jot` is to improve reproducability by allowing you to track
 statistics needed for an Rmd but are too big to open. Some statistics
 require summarizing large datasets or take a long time to calculate.
 
@@ -25,6 +32,12 @@ You can install the development version of `jot` like so:
 
 ``` r
 remotes::install_github('christopherkenny/jot')
+```
+
+You can also install the stable version of `jot` from CRAN:
+
+``` r
+install.packages('jot')
 ```
 
 ## Example
@@ -57,7 +70,7 @@ active notepad is represented as a path.
 
 ``` r
 jot_active()
-#> [1] "C:\\Users\\chris\\AppData\\Local\\Temp\\RtmpAFuA8J\\file2cfc4cc14957.yaml"
+#> [1] "C:\\Users\\chris\\AppData\\Local\\Temp\\RtmpY3ZkIQ\\file67e01bfb40.yaml"
 ```
 
 To write to the notepad can use `jot()`:
@@ -81,7 +94,8 @@ estimate:
 
 ``` r
 jot(note = 4, name = 'estimate')
-#> Warning: `name` already exists and `overwrite` is "FALSE". No updates were made.
+#> Warning: `name` already exists and `overwrite` is "FALSE". No updates were
+#> made.
 ```
 
 So, the notepad will still say:
