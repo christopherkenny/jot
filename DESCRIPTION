@@ -1,11 +1,11 @@
 Package: jot
 Title: Jot Down Values for Later
-Version: 0.0.4
+Version: 0.0.5
 Authors@R: 
     person(given = "Christopher T.",
            family = "Kenny",
            role = c("aut", "cre"),
-           email = "christopherkenny@fas.harvard.edu",
+           email = "ctkenny@proton.me",
            comment = c(ORCID = "0000-0002-9386-6860"))
 Description: Reproducible work requires a record of where every statistic originated.
     When writing reports, some data is too big to load in the same environment and some statistics take a while to compute.
