@@ -14,6 +14,7 @@ Description: Reproducible work requires a record of where every statistic origin
     Notepads keep track of who added the notes and when the notes were added.
     A simple text representation is used to allow for clear version histories.
 License: MIT + file LICENSE
+Config/Needs/website: christopherkenny/ctktemplate
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
